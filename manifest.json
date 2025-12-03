@@ -1,0 +1,31 @@
+{
+  "manifest_version": 3,
+  "name": "ChatGPT 导出聊天记录（团队和个人通用）",
+  "version": "9.0.1",
+  "description": "导出 ChatGPT 聊天记录（团队/个人），支持 JSON / Markdown / HTML，侧边栏操作。",
+  "permissions": [],
+  "host_permissions": [
+    "https://chatgpt.com/*",
+    "https://chat.openai.com/*"
+  ],
+  "content_scripts": [
+    {
+      "matches": [
+        "https://chatgpt.com/*",
+        "https://chat.openai.com/*"
+      ],
+      "js": [
+        "jszip.min.js",
+        "src/core/utils.js",
+        "src/core/api.js",
+        "src/core/exporter.js",
+        "src/ui/panel.js",
+        "content.js"
+      ],
+      "css": [
+        "src/ui/styles.css"
+      ],
+      "run_at": "document_start"
+    }
+  ]
+}
