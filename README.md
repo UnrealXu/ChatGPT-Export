@@ -38,7 +38,7 @@
 - 当前：9.0.1（命名“ChatGPT 导出聊天记录（团队和个人通用）”）
 
 ## 许可
-本仓库采用 **PolyForm Small Business License 1.0.0**（小型企业/个人可免费使用，营收超阈值需获取商业授权），详见 `LICENSE.md`。
+本仓库采用 **MIT License**，可自由用于个人和商业项目，需保留版权和许可声明，详见 `LICENSE.md`。
 
 ---
 
@@ -80,4 +80,4 @@ For a crx, use the browser’s pack extension tool with this folder as source; `
 - Current: 9.0.1 (“ChatGPT 导出聊天记录（团队和个人通用)”)
 
 ## License
-This repo uses **PolyForm Small Business License 1.0.0** (free for individuals/small businesses; revenue above threshold requires a commercial license). See `LICENSE.md` for details.
+This repo uses the **MIT License**. You can use it for personal and commercial projects; keep the copyright and license notice. See `LICENSE.md` for details.
